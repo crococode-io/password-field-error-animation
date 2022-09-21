@@ -19,7 +19,7 @@ unlock.addEventListener('click', function() {
     var tl = new TimelineMax();
 
     tl.fromTo(passwordDiv, 0.075, { x: -4 }, { x: 8, ease: "slow(0.0325, 0.075)",  clearProps: "x" })
-      .to($('body'), 0.15, {
+      .to(document.body, 0.15, {
         backgroundColor: '#E74C3C'
       })
       .to(errorMessage, 0.15, {
@@ -32,7 +32,7 @@ unlock.addEventListener('click', function() {
       .to(passwordDiv, 0.15, {
         className: "password-holder"
       }, "+=2.5")
-      .to($('body'), 0.15, {
+      .to(document.body, 0.15, {
         backgroundColor: '#EDF0F9'
       }, "+=0.65")
       .to(errorMessage, 0.15, {
