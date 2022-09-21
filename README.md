@@ -1,6 +1,6 @@
 # Password field error animation
 
-Inspiration for effect on password input field using CSS transitions and animations powered by GSAP.
+Inspiration for effect on password input field using CSS transitions and animations powered by GSAP. 
 
 ![Password field error animation](https://raw.githubusercontent.com/crococode-io/images/main/password-field-error-animation.png)
 
